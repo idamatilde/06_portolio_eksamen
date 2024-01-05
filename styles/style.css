@@ -1,0 +1,11 @@
+/* styling af header nav */
+.nav-link {
+  font-family: "Calistoga", serif;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #5fdd9d;
+  transition: 0.3s;
+}
