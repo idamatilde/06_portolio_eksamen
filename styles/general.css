@@ -82,6 +82,13 @@ nav ul li a:hover {
   background-color: #5fdd9d;
 }
 
+/* Grid i tema3.html */
+.grid_3_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
 @media screen and (max-width: 675px) {
   /* Burger menu */
   nav {
@@ -145,5 +152,9 @@ nav ul li a:hover {
 
   .nav-menu.active {
     left: 0;
+  }
+  /* Styling af grid */
+  .grid_3_1 {
+    display: block;
   }
 }

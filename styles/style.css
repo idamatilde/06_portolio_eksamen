@@ -8,6 +8,10 @@ img {
   width: 100%;
   height: auto;
 }
+/* margin preset */
+.margin-top {
+  margin-top: 30px;
+}
 /* styling af header nav */
 .nav-link {
   font-family: "Calistoga", serif;
@@ -44,4 +48,66 @@ h1 {
   font-size: 2.5rem;
   text-align: center;
   margin-top: 30px;
+}
+h2 {
+  font-family: "Calistoga", serif;
+  font-size: 2rem;
+
+  margin-top: 30px;
+}
+p {
+  font-family: "Arya", sans-serif;
+  font-size: 1.3rem;
+  line-height: 25px;
+}
+
+/* styling af variationssegmenter */
+.bluepage {
+  background-color: #99beda;
+  padding: 20px;
+  & p {
+    color: white;
+  }
+  /* & .bluepage h2 {
+    color: white;
+  } */
+}
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+.boxes {
+  color: #5fdd9d;
+  background-color: #5fdd9d;
+  padding: 40px;
+  border-radius: 15%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-col li {
+  color: white;
+  font-family: "Calistoga", serif;
+  font-size: 1.1rem;
+  padding-left: 15px;
+  list-style: none;
+}
+/* .pfp {
+  display: block;
+  border-radius: 10%;
+  height: 300px;
+  width: auto;
+} */
+.pfp {
+  background-image: url(../images/profil.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: auto;
 }
