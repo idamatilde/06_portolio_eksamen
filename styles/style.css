@@ -130,9 +130,80 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
+/* styling af portfolieside */
+.portfolie {
+  padding: 0px 250px;
+}
+.portfolie div a {
+  text-align: center;
+  text-decoration: none;
+}
+.card-menu:hover {
+  transform: scale(0.95);
+}
+.black h2 {
+  color: black;
+}
+.black p {
+  color: black;
+}
+.blue h2 {
+  color: #99beda;
+}
+.blue p {
+  color: #99beda;
+}
+.green h2 {
+  color: #5fdd9d;
+}
+.green p {
+  color: #5fdd9d;
+}
+.orange h2 {
+  color: #ff6d40;
+}
+.orange p {
+  color: #ff6d40;
+}
 @media screen and (max-width: 850px) {
   footer {
     padding: 0rem 1rem;
     font-size: 10px;
+  }
+  .grid_forside {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .g3 {
+    display: block;
+    height: auto;
+    width: 70%;
+    justify-self: end;
+    padding: 60px 60px;
+  }
+  .forside_tekst {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    padding: 10px 10px;
+    line-height: 15px;
+  }
+  .forside_tekst h1 {
+    font-size: 3rem;
+  }
+  .forside_tekst h2 {
+    font-size: 1.5rem;
+  }
+  .portfolie {
+    padding: 0px 200px;
+  }
+  .portfolie div a {
+    text-align: center;
+    text-decoration: none;
+  }
+  .card-menu {
+    padding-top: 70px;
   }
 }
