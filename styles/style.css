@@ -88,6 +88,10 @@ p {
   padding: 20px;
   background-color: #f3f2fa;
 }
+.sprite-skala {
+  width: auto;
+  height: 18rem;
+}
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -119,19 +123,6 @@ p {
   display: flex;
   flex-direction: column;
 }
-/* .flex-col li {
-  color: white;
-  font-family: "Calistoga", serif;
-  font-size: 1.1rem;
-  padding-left: 15px;
-  list-style: none;
-} */
-/* .pfp {
-  display: block;
-  border-radius: 10%;
-  height: 300px;
-  width: auto;
-} */
 .pfp {
   background-image: url(../images/profil.jpg);
   background-size: contain;

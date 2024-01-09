@@ -38,7 +38,133 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div>
+            <h1>Tema 4</h1>
+            <p class="intro">I tema 4 lærte jeg at kode et spil baseret på grundlæggende, HTML, css og Javascript, med
+                formålet at lære Javascript og animation at kende. Spillet skulle være et simpelt ‘klik’ spil. For at
+                lave spilelementerne, lærte vi teori til at underbygge design af vores ui elementer.
+            </p>
+            <h2>Idé til spillet</h2>
+            <div class="flex-responsiv margin-top">
+                <div class="col-style margin-right">
+                    <p>Mit spil hedder “Plante-spillet”. Det er et spil designet til en opfundet kampagne som hedder
+                        “Grøn
+                        Respekt”. Jeg har valgt at lave designet til en kampagne, fordi jeg gerne ville have lidt mere
+                        mening med spillet, og jeg kunne godt lide at spillet blev lavet til en sag.
+                    </p>
+                </div>
+                <div class="col-style margin-left">
+                    <p>Min spil-ide er at man er en lille plante, der skal undgå skrald. Det er ment som at opfordre
+                        folk til ikke at smide skrald i naturen. Derfor skal spilleren klikke slikpapir og skrald væk,
+                        så planten kun får regndråber. Man har tre liv, og man mister et hvis skrald falder ned til
+                        jorden. Hvis man lader en regndråbe ramme bunden af skærmen får man et point. Hvis man i stedet
+                        klikker vanddråben væk, mister man et point.
+                    </p>
+                </div>
+            </div>
+            <div class="grid_1_1 margin-top">
+                <div>
+                    <h2>Design af spil- og UI elementer</h2>
+                    <p class="margin-top">Jeg valgte at bruge Boba og Kiki teorien for at vise hvad mine “gode” og
+                        “dårlige” elementer var. Jeg skitserede først mine ideer, hvor jeg så optegnede dem med
+                        Illustrator.
+
+                    </p>
+                    <p class="margin-top">Til farvevalget prøvede jeg også at anvende noget af den designteori, vi havde
+                        lært
+                        i undervisningen. Min farvepalette var lavet af hovedsageligt earth-tones og grønne farver.
+                        Skraldet, som er de “onde” genstande, lavede jeg en rød farve, for at signalere at de er dårlige
+                        ved hjælp af farveteori.
+                    </p>
+                </div>
+                <div class="bluepage flex-responsiv margin-left margin-top">
+                    <div class="flex-col"><img class="sprite-skala" src="images/slikpapir.svg" alt="Daarlig sprite">
+                        <p class="figur_tekst">Figur A - Dette er min dårlige Sprite - et stykke slikpapir.</p>
+                    </div>
+                    <div class="flex-col"><img class="sprite-skala" src="images/vanddraabe.svg" alt="God sprite">
+                        <p class="figur_tekst">Figur B - Dette er min gode Sprite - en vanddråbe.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_1_2 gap margin-top">
+                <div class="bluepage flex-col margin-top margin-right">
+                    <div class="flex-col">
+                        <img src="images/aktivitetsdiagram.drawio.webp" alt="aktivitetsdiagram">
+                        <p class="figur_tekst">Figur C. Aktivitetsdiagram for spillets grundfunktioner.</p>
+                    </div>
+                    <div class="flex-col margin-top">
+                        <img src="images/diagram-tema4.PNG" alt="State machine diagram">
+                        <p class="figur_tekst">Figur D. State Machine diagram af kodningen i JavaScript .</p>
+                    </div>
+                </div>
+                <div class="order">
+                    <h2>Aktivitetsdiagram og State Machine diagram</h2>
+                    <p class="margin-top">
+                        Før jeg begyndte på JavaScript, lavede jeg et aktivitetsdiagram og et State Machine diagram.
+                        Mine diagrammer gav spillet en ramme for hvad der skulle ske. Igennem forløbet opdaterede jeg
+                        løbende diagrammerne, da jeg satte flere spilelementer ind i spillet.
+                    </p>
+                    <h2 class="margin-top">JavaScript</h2>
+                    <p class="margin-top">
+                        Med JavaScript fokuserede jeg først på hvordan man styrer de forskellige elementer i spillet,
+                        før jeg indsatte for mange elementer. Efter at vide det basale kodesprog, kunne jeg starte og
+                        stoppe elementerne. Den første version af mit spil blev altså et primitivt spil med kun et godt
+                        og et dårligt spilelement.
+                    </p>
+                    <p class="margin-top">Spillet kom sammen løbende i forløbet, da jeg begyndte at programmere
+                        funktioner som point, en timer, at miste liv, og at tabe eller vinde. Jeg fandt også lydeffekter
+                        til mine animationer, som jeg lærte at styre ved hjælp af JavaScript.</p>
+                    <a
+                        href="https://docs.google.com/spreadsheets/d/1CXF7VYfKKyiSnwP7CRh7tWLTpF3-FOOINxuanqMKLJk/edit?usp=sharing ">
+                        <h2 class="margin-top">Survey</h2>
+                    </a>
+                    <p class="margin-top">Da mit spil havde en start og en slutning, kunne jeg begynde at få andre
+                        medstuderende til at teste det. Jeg lavede en google survey, med simple spørgsmål. Mine
+                        spørgsmål var både om sværhedsgraden, spilelementerne, og ekstra kritik. Jeg spurgte ikke til
+                        køn eller andre personlige informationer, så min survey blev besvaret af både undervisere og
+                        studerende. Det var virkeligt nyttigt at få andre øjne på mit projekt. Jeg tog svar og
+                        resultaterne til overvejelse, og redigerede i spillet efterfølgende.</p>
+                </div>
+            </div>
+
+            <div class="margin-top">
+                <div>
+                    <h2><a
+                            href="https://docs.google.com/presentation/d/1kvQ4P8ibLa06XoEtVGqhj6BFYaZOFGefTTYL2e0Gcgs/edit?usp=sharing">Præsentation</a>
+                    </h2>
+                    <div class="flex-responsiv margin-top">
+                        <div class="col-style margin-right">
+                            <p>I slutningen af temaet præsenterede vi vores idé som et pitch. Vi havde 7 minutter til at
+                                fremlægge vores site. I min præsentation prøvede jeg både at vise stykker af kode, men
+                                også min designprocess og idéudvikling. Ved at præsentere det, fik jeg brugbar kritik
+                                fra undervisere og medstuderende. Blandt andet blev der kommenteret på, at jeg brugte
+                                mig selv som person med et problem. Det kunne også gøres med en undersøgelse af andre
+                                unge, eller at bruge en user story. Mit formål, som var at blive inspireret til sin
+                                hobby igen, blev også lidt væk gennem min udviklingsproces. Det kunne give projektet en
+                                mere brugbar retning, at være mere fokuseret på min problemløsning gennem processen.
+                            </p>
+                        </div>
+                        <div class="col-style margin-left">
+                            <p>Fra min prototype til det kodede site, skete der også nogle visuelle fejl. Hjemmeside
+                                blev for bred, hvilket kan fikses med en max-width. Det ville gøre min tekst mere
+                                læsbar, og at layoutet mere sammenhængende. En udfordring som jeg uvidende havde sat mig
+                                selv, var at jeg ikke kunne kode funktioner som skulle bruge data. Altså kunne jeg ikke
+                                lave en fungerende log-in funktion, upload funktion eller kommentarfelt. Det var vigtige
+                                punkter i mit site, men jeg lærte alligevel at få det opsat i min prototype, men måtte
+                                se bort fra at kode det.
+                            </p>
+                        </div>
+                    </div>
+                    <h2 class="margin-top">Hvad lærte jeg?</h2>
+                    <p>Jeg syntes personligt at spildesign er super spændende, så jeg nød virkeligt det her tema. Det
+                        var meget spændende at se andres løsninger.
+                        JavaScript åbnede også op for en masse nye muligheder i <a href="tema5.html">tema 5</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="margin-top">
         <h4>Lavet af Ida-Matilde Karla Greve-Nielsen</h4>
         <h4>Multimediedesign 1. semester - Portfolie eksamen</h4>
