@@ -8,6 +8,13 @@ img {
   width: 100%;
   height: auto;
 }
+iframe {
+  width: 100%;
+  align-content: baseline;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background-color: black;
+}
 /* margin preset */
 .margin-top {
   margin-top: 30px;
@@ -123,6 +130,13 @@ p {
   display: flex;
   flex-direction: column;
 }
+a {
+  color: #ff6d40;
+}
+a:hover {
+  color: #ff8b68;
+}
+
 .pfp {
   background-image: url(../images/profil.jpg);
   background-size: contain;
