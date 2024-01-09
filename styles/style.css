@@ -15,6 +15,9 @@ img {
 .margin-left {
   margin-left: 60px;
 }
+.margin-right {
+  margin-right: 60px;
+}
 /* styling af billedetekst */
 .figur_tekst {
   padding-left: 10px;
@@ -81,9 +84,18 @@ p {
     color: white;
   } */
 }
+.col-style {
+  padding: 20px;
+  background-color: #f3f2fa;
+}
 .grid_1_1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+.grid_1_2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
 }
 .boxes_left {
@@ -232,6 +244,9 @@ p {
   .margin-left {
     margin: 20px;
   }
+  .margin-right {
+    margin: 20px;
+  }
   p {
     font-size: 1.2rem;
     padding: 15px;
@@ -243,5 +258,12 @@ p {
   }
   .margin-top {
     margin-top: 10px;
+  }
+  .grid_1_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .order {
+    order: -1;
   }
 }

@@ -88,6 +88,10 @@ nav ul li a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 100px;
 }
+.flex-responsiv {
+  display: flex;
+  flex-direction: row;
+}
 
 @media screen and (max-width: 850px) {
   /* Burger menu */
@@ -158,7 +162,10 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr;
   }
-
+  .flex-responsiv {
+    display: flex;
+    flex-direction: column;
+  }
   /* styling af footer */
 }
 
