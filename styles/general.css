@@ -155,8 +155,10 @@ nav ul li a:hover {
   }
   /* Styling af grid */
   .grid_3_1 {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
   }
+
   /* styling af footer */
 }
 
