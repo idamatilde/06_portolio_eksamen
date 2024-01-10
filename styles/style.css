@@ -157,6 +157,15 @@ a:hover {
 .gap {
   gap: 80px;
 }
+/* styling af specifik tekst */
+.forside_tekst h1 {
+  font-size: 5rem;
+  text-align: start;
+}
+.forside_tekst h2 {
+  font-size: 3rem;
+}
+
 /* styling af portfolieside */
 .portfolie {
   padding: 0px 250px;

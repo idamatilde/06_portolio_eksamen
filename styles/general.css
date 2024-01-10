@@ -92,6 +92,25 @@ nav ul li a:hover {
   display: flex;
   flex-direction: row;
 }
+/* forside grid */
+
+.grid_forside {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.g3 {
+  display: block;
+  height: auto;
+  width: 45%;
+  justify-self: end;
+  padding: 30px 60px;
+}
+.forside_tekst {
+  position: absolute;
+  top: 20%;
+  right: 45%;
+}
 
 @media screen and (max-width: 850px) {
   /* Burger menu */
@@ -157,7 +176,7 @@ nav ul li a:hover {
   .nav-menu.active {
     left: 0;
   }
-  /* Styling af grid */
+  /* grid */
   .grid_3_1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -166,46 +185,4 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
   }
-  /* styling af footer */
-}
-
-/* forside grid */
-/* .grid_forside {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-.g1 {
-  display: grid;
-  grid-column: 0 / span 4;
-}
-.g3 {
-  display: grid;
-  grid-column: 2 / span 4;
-  grid-row: 1 / span 3;
-} */
-
-.grid_forside {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-.g3 {
-  display: block;
-  height: auto;
-  width: 45%;
-  justify-self: end;
-  padding: 30px 60px;
-}
-.forside_tekst {
-  position: absolute;
-  top: 20%;
-  right: 45%;
-}
-.forside_tekst h1 {
-  font-size: 5rem;
-  text-align: start;
-}
-.forside_tekst h2 {
-  font-size: 3rem;
 }
