@@ -86,9 +86,6 @@ p {
   & p {
     color: white;
   }
-  /* & .bluepage h2 {
-    color: white;
-  } */
 }
 .col-style {
   padding: 20px;
@@ -140,7 +137,7 @@ a:hover {
 }
 
 .pfp {
-  background-image: url(../images/profil.jpg);
+  background-image: url(../images/profil.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 300px;
