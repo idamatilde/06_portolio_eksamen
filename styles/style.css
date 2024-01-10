@@ -25,6 +25,9 @@ iframe {
 .margin-right {
   margin-right: 60px;
 }
+.margin-bottom {
+  margin-bottom: 120px;
+}
 /* styling af billedetekst */
 .figur_tekst {
   padding-left: 10px;
@@ -76,10 +79,6 @@ p {
   line-height: 25px;
 }
 
-/* styling af tekst m. classes */
-/* .intro {
-} */
-
 /* styling af variationssegmenter */
 .bluepage {
   background-color: #99beda;
@@ -109,6 +108,7 @@ p {
   grid-template-columns: 2fr 1fr;
   gap: 20px;
 }
+/* Styling af Om Mig side */
 .boxes_left {
   color: #5fdd9d;
   background-color: #5fdd9d;
@@ -121,7 +121,9 @@ p {
   padding: 10px 65px;
   border-radius: 50px;
 }
-
+.info-liste {
+  padding: 10px;
+}
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -268,7 +270,15 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
   }
+  .gap-ommig {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
   .order {
     order: -1;
+  }
+  .margin-bottom {
+    margin-bottom: 60px;
   }
 }
